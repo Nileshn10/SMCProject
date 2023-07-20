@@ -16,6 +16,7 @@ public class BasicAutomation {
 		driver.get("https://www.amazon.in/");
 		driver.findElement(By.id("twotabsearchtextbox")).sendKeys("Tv Set");
 		driver.findElement(By.id("nav-search-submit-button")).click();
+		System.out.println("Hellow git");
 		
 		
 		

@@ -17,8 +17,9 @@ public class New20_July_2023 {
 		
 		driver.findElement(By.name("username")).sendKeys("Admin");
 		driver.findElement(By.name("password")).sendKeys("admin123");
-		driver.findElement(By.className("orangehrm-login-button")).click();
-		driver.quit();
+		driver.findElement(By.xpath("//button[@type='submit']")).click();
+		//driver.findElement(By.className("orangehrm-login-button")).click();
+		//driver.quit();
 		
 		
 	}
